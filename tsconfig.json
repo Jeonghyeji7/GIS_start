@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/map/MapContext.js", "components/map/Map.jsx", "pages/map.jsx", "pages/index.jsx"],
   "exclude": ["node_modules"]
 }
