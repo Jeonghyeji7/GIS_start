@@ -7,12 +7,13 @@ import MapContext from '../components/map/MapContext'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
-  const {map} = useContext(MapContext)
+  // const {map} = useContext(MapContext)
 
   return (
     <>
-      <div id="map" style={{ position: 'relative', width: '100%', height: '100vh' }}>
-      </div>
+    <Link href="/map"><a>지도로 이동</a></Link>
+      {/* <div id="map" style={{ position: 'relative', width: '100%', height: '100vh' }}>
+      </div> */}
     </>
   )
 }

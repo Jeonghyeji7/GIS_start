@@ -11,6 +11,11 @@ import {
   defaults as defaultInteractions,
 } from 'ol/interaction'
 
+//ㅅㅐ로고침
+//마커 2개(회사랑 연구소)
+//마커 두 일직선으로
+//회사 폴리곤으로 두르기 https://spatiumwdev.tistory.com/45
+
 const Map = ({ children }) => {
   const [mapObj, setMapObj] = useState({})
 
